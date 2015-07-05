@@ -1,0 +1,179 @@
+*{margin:0;padding:0;}
+
+@media screen and (min-width:1200px)
+{
+	body
+	{
+		background: #f0f0f0;
+		font-family: "Roboto", sans-serif;
+		font-size: 100%;
+		background: url("http://codyhouse.co/demo/alternate-fixed-scroll-background/img/cd-background-1.jpg");
+		background-repeat: none;
+		background-attachment: fixed;
+		background-position: center center;
+	}
+	header
+	{
+		position: fixed;
+		width: 100%;
+		height:50px;
+		background: rgba(255, 255, 255, 0.95);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	}
+	header > .logo
+	{
+		float:left;
+		margin-left: 10%;
+	}
+	header > .logo > a > img
+	{
+		padding-top: 10px;
+	}
+	header > nav
+	{
+		float: right;
+		margin-right: 10%;
+	}
+	header > nav > ul
+	{
+		position: static;
+		width: auto;
+		line-height: 50px;
+	}
+	header > nav > ul > li
+	{
+		list-style: none;
+		display: inline-block;
+		-webkit-transition: border-bottom 0.5s linear;
+	}
+	header > nav > ul > li:hover
+	{
+		border-bottom: 4px solid #B4D7A8;
+	}
+	header > nav > ul > li > a
+	{
+		text-decoration: none;
+		padding: 17px 20px;
+		color: #3D3536;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	header > nav > ul > li > a:hover
+	{
+		background: transparent;
+		color: #99A478;
+	}
+	section.s1
+	{
+		width: 100%;
+		height: 100vh;
+	}
+	section.s2
+	{
+		width: 100%;
+		height: 100vh;
+		background: #99A478;
+	}
+	section.s2 > .container > p
+	{
+		padding-top: 200px;
+		color : #FFF;
+		font-size: 18px;
+		font-weight: 300;
+	}
+	section.s3
+	{
+		background: url("http://codyhouse.co/demo/alternate-fixed-scroll-background/img/cd-background-2.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100vh;
+	}
+	section.s4
+	{
+		width: 100%;
+		height: 100vh;
+		background: #B4D7A8;
+	}
+	section.s5
+	{
+		background: url("http://codyhouse.co/demo/alternate-fixed-scroll-background/img/cd-background-3.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100vh;
+	}
+	section.s6
+	{
+		width: 100%;
+		height: 100vh;
+		background: #3D3536;
+	}
+	.container
+	{
+		width:1200px;
+		margin: 0 auto;
+	}
+	.container > header
+	{
+		width:100%;
+	}
+	.container > header > .logo > a
+	{
+		color: #FFF;
+		text-decoration: none;
+	}
+	.container > header > .logo > a > img
+	{
+		
+	}
+	.container > nav
+	{
+		width: 100%;
+		margin-top: 1%;
+	}
+	.container > main
+	{
+		width:79%;
+		margin-top:1%;
+		float: left;
+		margin-right: 1%;
+	}
+	.container > main > section
+	{
+		width:100%;
+	}
+	.container > main > article
+	{
+
+	}
+	.container > aside
+	{
+		width:20%;
+		float: left;
+		margin-top:1%;
+	}
+	.clear{clear: both;}
+	.container > footer
+	{
+		margin-top: 1%;
+		width: 100%;
+	}
+	.item
+	{
+		box-shadow: 0px 1px 5px #272727;
+		background: #FFF;
+		margin-bottom:1%;
+		padding: 10px;
+	}
+	aside > .item
+	{
+		box-shadow: 0px 1px 5px #272727;
+		background: #FFF;
+		margin-bottom:5%;
+		padding: 10px;
+	}
+}
